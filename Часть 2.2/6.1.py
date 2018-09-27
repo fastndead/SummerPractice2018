@@ -1,0 +1,10 @@
+print("Enter set1 : ")
+set1 = set([int(x) for x in input().split()])
+print("set1 : ",set1)
+print("Enter set2 : ")
+set2 = set([int(x) for x in input().split()])
+print("set2 : ",set2)
+
+res = set1.intersection(set2)
+s = sum(res)
+print("\nintersection : ", res, "\nSum : ",s)
